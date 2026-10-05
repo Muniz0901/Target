@@ -1,3 +1,10 @@
+
+#Considerando que o json abaixo tem registros de vendas de um time comercial, faça um programa que leia os dados e calcule a comissão de cada vendedor, seguindo a seguinte regra para cada venda:
+#Vendas abaixo de R$100,00 não gera comissão#
+#Vendas abaixo de R$500,00 gera 1% de comissão
+#A partir de R$500,00 gera 5% de comissão#
+
+
 # Importa o módulo nativo do Python para ler e escrever JSON
 import json
 
