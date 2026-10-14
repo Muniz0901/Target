@@ -114,3 +114,4 @@ def main():
 # Só executa o programa se o arquivo for rodado diretamente
 if __name__ == "__main__":
     main()
+#Teste commit
