@@ -21,7 +21,7 @@ def calcular_comissao(valor):
 
 # Abre o arquivo vendas.json; o "with" fecha o arquivo sozinho ao terminar
 # encoding="utf-8" garante que acentos como "João" sejam lidos corretamente
-with open("vendas.json", encoding="utf-8") as arquivo:
+with open("vendas_1.json", encoding="utf-8") as arquivo:
     # Converte o conteúdo do JSON em dicionário/lista do Python
     dados = json.load(arquivo)
 
@@ -50,6 +50,6 @@ resultado = {
 }
 
 # Converte o dicionário em texto JSON e imprime na tela
-# indent=2 deixa o JSON indentado e legível
+# indent=2 deixa o JSON inden0tado e legível
 # ensure_ascii=False mantém os acentos (sem isso, "João" viraria "Jo\u00e3o")
 print(json.dumps(resultado, indent=2, ensure_ascii=False))
